@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js04_if.html</title>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta charset="utf-8">
+</head>
+
+<body>
+<script language="javascript">
+
+/* 	Objetivo: ler dois valores e mostrar em ordem
+*/
+
+/* Definição de Variáveis */
+var js_n1;
+var js_n2;
+var js_n3;
+
+/* Entrada de Dados */
+js_n1 = window.prompt('Informe o primeiro numero:' , '00');
+js_n2 = window.prompt('Informe o segundo numero:' , '00');
+
+/* Saída de Dados */
+document.write ('numero 1 digitado = ' + js_n1)
+document.write ('numero 2 digitado = ' + js_n2)
+
+if (js_n1 > js_n2) {
+	js_n3 = js_n1;
+	js_n1 = js_n2;
+	js_n2 = js_n3;
+}
+
+document.write (' <p><b> Classificacao em ordem crescente:</br> = ' + js_n1 ' e ' + js_n2);
+
+</script>
+</body>
+</html>
