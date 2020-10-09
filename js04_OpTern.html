@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js04_OpTern.html - if</title>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta charset="utf-8">
+</head>
+
+<body>
+<script language="javascript">
+
+document. write('<p>------------------------------...')
+document. write('<p>DEFINICAO DE ATRIBUICAO DE VARIAVEIS');
+document. write('<p>var js_num = <b>30</b>; (js_num = 30)');
+var js_num = 30;
+
+document. write('<p>------------------------------...')
+document. write('<p>Operador ternatio <b>(? :)</b> com operadore relacionais (==, !=, <):');
+
+
+document. write('<p>js_num <b>==</b> 20 <b>?</b> "SIM" <b>:</b> "NAO" - Resposta => ');
+	((js_num == 20) ? document.write('<b>SIM</b>') : document.write('<b>Nao</b>'));
+
+document. write('<p>js_num <b>!=</b> 20 <b>?</b> "SIM" <b>:</b> "NAO" - Resposta => ');
+	((js_num != 20) ? document.write('<b>SIM</b>') : document.write('<b>Nao</b>'));
+
+document. write('<p>js_num <b><</b> 20 <b>?</b> "SIM" <b>:</b> "NAO" - Resposta => ');
+((js_num < 20) ? document.write('<b>SIM</b>') : document.write('<b>Nao</b>'));
+
+
+document. write('<p>------------------------------...');
+document. write('<p>Operador ternanrio com expressao aritimetica');
+
+document. write('<p>(js_num <b>-</b> 20) <b>==</b> 0 <b>?</b> "SIM" <b>:</b> "NAO" - Resposta => ');
+(((js_num - 20) == 0) ? document.write('<b>SIM</b>') : document.write('<b>Nao</b>'));
+
+</script>
+</body>
+</html>
